@@ -1,0 +1,7 @@
+name: Survey
+main: ru.violence.survey.SurveyPlugin
+version: $version
+depend: [ CoreAPI ]
+
+commands:
+  survey:

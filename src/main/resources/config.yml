@@ -1,0 +1,21 @@
+surveys:
+  example:
+    name: "Example Survey"
+    description: "This is an example survey."
+    questions:
+      showing_radio_question:
+        text: "This is a radio question."
+        answer:
+          type: RADIO
+          options:
+            '1': "Nice"
+            '2': "Good"
+            '3': "Bad"
+      showing_checkbox_question:
+        text: "This is a checkbox question."
+        answer:
+          type: CHECKBOX
+          options:
+            '1': "Nice"
+            '2': "Good"
+            '3': "Bad"
