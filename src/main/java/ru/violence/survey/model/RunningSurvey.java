@@ -161,7 +161,7 @@ public class RunningSurvey {
             TextComponent continueButton = new TextComponent("[Далее]");
             if (isCanGoToQuestion(currentQuestionId + 1)) {
                 continueButton.setColor(ChatColor.BLUE);
-                continueButton.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, TextComponent.fromLegacyText("§eКликни, чтобы перейти к следующему вопросу!")));
+                continueButton.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, TextComponent.fromLegacyText("§eКликни, чтобы перейти к следующему вопросу!")));
                 continueButton.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/survey go_forward " + survey.getKey()));
             } else {
                 continueButton.setColor(ChatColor.GRAY);
